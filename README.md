@@ -1,1 +1,21 @@
 # odin-blog
+
+- Create new git repository w readme and gitignore
+- clone to local pc
+- npm init -y
+- package.json type:module
+- install nodemon
+- nodemon script
+- install express
+- initialize express
+- app.listen()
+- install dotenv and create .env
+- create empty variables for MONGO_URL, JWT_SECRET, JWT_LIFETIME
+- install mongoose
+- add mongodb url to env
+- connect to database in app.js
+- create start function in app.js => connect to mongo and listen to port
+- start()
+- create routes, controllers, models directories
+- create basic routes for users and send basic info
+- create basic controller functions for users and add to routes
