@@ -9,3 +9,5 @@ router.route("/register").post((req, res) => {
 router.route("/login").post((req, res) => {
   res.send("login user");
 });
+
+export default router;
