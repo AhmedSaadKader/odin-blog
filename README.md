@@ -127,3 +127,7 @@ Token: {
 - validate body of request
 - return if error
 - else create new post
+
+## controllers
+
+- create controller functions for all CRUD routes
