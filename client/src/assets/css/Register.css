@@ -1,0 +1,77 @@
+.registerPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+    color: var(--secondary-color);
+}
+
+.registerForm {
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: var(--primary-color);
+    width: 40vw;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    border: solid;
+}   
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+
+.formRows {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: space-between;
+    width: 90%;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: larger;
+    /* align-items: center; */
+}
+
+.form-input {
+    margin-left: auto;
+    padding: 10px;
+    border-color: var(--primary-color);
+    border-radius: 0.2rem;
+    border-width: thin;
+    width: 100%;
+    font-size: large;
+}
+
+.submitButton {
+    padding: 10px;
+    border: transparent;
+    border-radius: 0.25rem;
+    font-family: inherit;
+    font-size: large;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: larger;
+}

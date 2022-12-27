@@ -1,0 +1,29 @@
+
+@media (min-width: 700px) {
+    
+    .bigSideBar {
+        width: 20vw;
+        background-color: var(--primary-color);
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        margin-left: -20vw;
+        transition: 0.3s ease-in-out;
+    }
+
+    .active {
+        margin-left: 0;
+    }
+    
+    .navLinks {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 15px;
+    margin-top: 5vh;
+}
+
+.nav-link {
+    color: var(--secondary-color)
+}
+}

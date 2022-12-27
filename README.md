@@ -131,3 +131,47 @@ Token: {
 ## controllers
 
 - create controller functions for all CRUD routes
+
+## FrontEnd
+
+- create new folder in base called client
+- cd client
+- npx create-react-app
+- npm start
+- clean react project remove unnecessary files
+- title and favicon
+
+### Main page
+
+- npm i react-router-dom
+- pages directory
+- Main.js
+- components directory
+- render Main.js in App.js
+
+### Components
+
+- Logo.js
+- Navbar.js
+- NavLinks.js
+- BigSidebar.js
+- SmallSidebar.js
+- Loading.js
+- FormRow.js
+- FormRowSelect.js
+
+### Context Folder
+
+- create Context folder
+- action.js
+- appContext.js
+- reducer.js
+
+### assets folder
+
+- css
+- images
+
+### React-router in App.js
+
+- import BrowserRouter, Routes, Route
